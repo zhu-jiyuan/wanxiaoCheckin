@@ -1,0 +1,1 @@
+{"1928320000": {"deptStr": "软件学院（本部本科生）-计算机科学与技术(移动开发方向)-19计科(移动开发)2班", "deptid": 78655, "userid": "28851870", "areaStr": "河南省-xxx店市-哒哒县xxx", "mergencyPeoplePhone": "家长手机号", "ownPhone": "本人手机号", "username": "张三", "stuNo": "1928320000", "emergencyContact": "张三父亲or母亲"},}
