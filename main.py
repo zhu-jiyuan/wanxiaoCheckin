@@ -122,9 +122,8 @@ def informations_push(msg):
     requests.get(url)
 
 def get_token():
-
-    campus = CampusCard("填自己的账号", "填自己的密码", open_device('userinfo.txt'))
-    bills = campus.get_bill("2019-06-01", "2019-07-31")
+    campus = CampusCard("app账号", "密码", open_device('userinfo.txt'))
+    campus.get_main_info()
     with open('userinfo.txt') as f:
         json_1 = json.loads(f.read())
         print(json_1['sessionId'])
